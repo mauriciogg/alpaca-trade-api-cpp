@@ -4,12 +4,12 @@ def alpaca_deps():
     """Loads dependencies need to compile and test with the alpaca library."""
 
     # googletest is a testing framework developed by Google.
-    if "com_github_google_gooogletest" not in native.existing_rules():
+    if "com_github_google_googletest" not in native.existing_rules():
         http_archive(
             name = "com_github_google_googletest",
-            strip_prefix = "googletest-release-1.10.0",
-            urls = ["https://github.com/google/googletest/archive/release-1.10.0.tar.gz"],
-            sha256 = "9dc9157a9a1551ec7a7e43daea9a694a0bb5fb8bec81235d8a1e6ef64c716dcb",
+            strip_prefix = "googletest-1.16.0",
+            urls = ["https://github.com/google/googletest/archive/v1.16.0.tar.gz"],
+            sha256 = "78c676fc63881529bf97bf9d45948d905a66833fbfa5318ea2cd7478cb98f399",
         )
 
     # gflags is a C++ library that implements commandline flags processing.
