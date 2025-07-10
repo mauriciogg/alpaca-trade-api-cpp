@@ -10,6 +10,7 @@ std::string assetClassToString(const AssetClass asset_class) {
   case USEquity:
     return "us_equity";
   }
+  return "";
 }
 
 Status Asset::fromJSON(const std::string& json) {
