@@ -1,4 +1,4 @@
-module(name = "com_github_marpaia_alpaca_trade_api_cpp", version="")
+module(name = "com_github_mauriciogg_alpaca_trade_api_cpp", version="")
 
 bazel_dep(name = "cpp-httplib", version = "0.22.0", repo_name = "com_github_yhirose_cpp_httplib")
 bazel_dep(name = "boringssl", version = "0.20250701.0", repo_name = "com_github_google_boringssl")
