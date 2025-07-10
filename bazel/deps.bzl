@@ -54,8 +54,8 @@ def alpaca_deps():
     if "com_github_google_boringssl" not in native.existing_rules():
         http_archive(
             name = "com_github_google_boringssl",
-            strip_prefix = "boringssl-master-with-bazel",
-            urls = ["https://github.com/google/boringssl/archive/master-with-bazel.tar.gz"],
+            strip_prefix = "boringssl-f3dcc4660d30c35b1ccc40149a8cc170dc539132",
+            urls = ["https://github.com/google/boringssl/archive/f3dcc4660d30c35b1ccc40149a8cc170dc539132.tar.gz"],
         )
 
     # zlib is a general purpose data compression library.
