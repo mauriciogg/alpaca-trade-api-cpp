@@ -5,3 +5,5 @@ build --action_env=APCA_API_BASE_URL
 build --action_env=APCA_API_DATA_URL
 test --test_output=errors
 test --cache_test_results=no
+
+common --noenable_bzlmod
